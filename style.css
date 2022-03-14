@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -70,9 +72,140 @@ img {
 #mission {
   background-color: rgba(79, 157, 166, 0.1);
 }
+
 #vission {
   background-color: rgba(255, 89, 89, 0.1);
 }
+
 #goals {
   background-color: #fff4d6;
+}
+
+.mission-section .item-wrap .content-wrap {
+  border-radius: 30px;
+  padding: 0px 20px;
+  margin: 0 10px;
+}
+
+.mission-section .item-wrap .content-wrap img {
+  width: 150px;
+}
+
+/* developer section  */
+.dev-section {
+  align-items: center;
+}
+
+.dev-section img {
+  width: 350px;
+  margin: 100px 0;
+}
+
+.dev-section div {
+  margin: 100px 0 100px 50px;
+}
+
+/* community section */
+.com-section {
+  align-items: center;
+}
+
+.com-section img {
+  width: 350px;
+  /* margin: 100px 0; */
+}
+
+.com-section div {
+  margin-right: 50px;
+}
+
+/* product section  */
+.product-section h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.product-section h1 span {
+  color: #4834d4;
+}
+.product-section div {
+  align-items: center;
+}
+
+.product-section div h2 span {
+  color: #4834d4;
+}
+
+.product-section div img {
+  width: 250px;
+  margin: 0 100px;
+}
+
+.contact-section h1 {
+  color: #4834d4;
+  text-align: center;
+}
+
+.contact-section h1 span {
+  color: #000;
+}
+
+.contact-section form input {
+  display: flex;
+  margin: 20px auto;
+}
+
+.name-email {
+  border: 2px solid #22a6b3;
+  outline: none;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.name-email::placeholder {
+  color: gray;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 30px;
+}
+
+#massage {
+  border: 2px solid #22a6b3;
+  outline: none;
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#massage::placeholder {
+  color: gray;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 30px;
+}
+
+#submit-btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+  background-color: black;
+}
+footer h1 {
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+footer h1 span {
+  color: #22a6b3;
+}
+
+footer p {
+  color: white;
+  text-align: center;
 }
