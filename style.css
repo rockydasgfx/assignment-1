@@ -60,6 +60,7 @@ img {
 }
 
 /* mission-section */
+
 .mission-section h1 {
   font-size: 30px;
   text-align: center;
@@ -71,14 +72,17 @@ img {
 
 #mission {
   background-color: rgba(79, 157, 166, 0.1);
+  width: 30%;
 }
 
 #vission {
   background-color: rgba(255, 89, 89, 0.1);
+  width: 30%;
 }
 
 #goals {
   background-color: #fff4d6;
+  width: 30%;
 }
 
 .mission-section .item-wrap .content-wrap {
@@ -92,6 +96,7 @@ img {
 }
 
 /* developer section  */
+
 .dev-section {
   align-items: center;
 }
@@ -128,15 +133,20 @@ img {
 .product-section h1 span {
   color: #4834d4;
 }
-.product-section div {
+.product-section .product-wrap {
   align-items: center;
+  background-image: url(./images/shapes/shape-3.png),
+    url(./images/shapes/shape-3.png), url(./images/shapes/shape-3.png);
+  background-repeat: no-repeat;
+  background-size: 90px 90px, 50px 50px, 50px 50px;
+  background-position: 97px -8px, 108px 390px, 293px 278px;
 }
 
-.product-section div h2 span {
+.product-section .product-text h2 span {
   color: #4834d4;
 }
 
-.product-section div img {
+.product-section .product-wrap img {
   width: 250px;
   margin: 0 100px;
 }
